@@ -8,7 +8,7 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
 >* Expended Widget
 >* Stacks Widget
 
-## Container Widget
+### Container Widget
 
 ```
 body: Column(
@@ -39,7 +39,7 @@ body: Column(
         ),
 ```
 
-## Expended Widget
+### Expended Widget
 ```
             Row(
               children: [
