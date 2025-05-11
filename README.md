@@ -7,11 +7,12 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
 >* Container Widget
 >* Expended Widget
 >* Stacks Widget
+>* Circular Avtar Widget
 
 ### Container Widget
 
 ```
-body: Column(
+    body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
@@ -63,8 +64,32 @@ body: Column(
             ),
 ```
 
-## Stacks Widget
+### Stacks Widget
+```
+            SizedBox(
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  Container(height: 100, width: 100, color: Colors.red),
+                  Positioned(top: 100, child: Text('Container')),
+                ],
+              ),
+            ),
+            Stack(
+              children: [
+                Container(height: 200, width: 200, color: Colors.red),
+                Container(height: 100, width: 100, color: Colors.black),
+                Container(height: 50, width: 50, color: Colors.blue),
+              ],
+            ),
 ```
 
+### Circular Avtar Widget
 ```
-
+        Center(
+              child: CircleAvatar(
+                radius: 100,
+                child: Icon(Icons.person_off_outlined, size: 90),
+              ),
+            ),
+```

@@ -63,6 +63,32 @@ class MyApp extends StatelessWidget {
             //     ),
             //   ],
             // ),
+
+            //      This is Stack Widget.
+            // SizedBox(
+            //   child: Stack(
+            //     alignment: Alignment.center,
+            //     children: [
+            //       Container(height: 100, width: 100, color: Colors.red),
+            //       Positioned(top: 100, child: Text('Container')),
+            //     ],
+            //   ),
+            // ),
+            // Stack(
+            //   children: [
+            //     Container(height: 200, width: 200, color: Colors.red),
+            //     Container(height: 100, width: 100, color: Colors.black),
+            //     Container(height: 50, width: 50, color: Colors.blue),
+            //   ],
+            // ),
+
+            //      This is Circular Avtar Widget
+            // Center(
+            //   child: CircleAvatar(
+            //     radius: 100,
+            //     child: Icon(Icons.person_off_outlined, size: 90),
+            //   ),
+            // ),
           ],
         ),
       ),
