@@ -9,6 +9,11 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
 >* Stacks Widget
 >* Circular Avtar Widget
 >* Divider Widget
+>* Rich Text Widget
+>* 
+>* 
+>* 
+>* 
 
 ### Container Widget
 
@@ -101,3 +106,13 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
             Divider(color: Colors.black),
             SizedBox(height: 100),
 ````
+
+### Rich Text Widget
+```
+RichText(
+             text: TextSpan(
+               text: 'Hello',
+               style: Theme.of(context).textTheme.bodyLarge,
+              ),
+             ),
+```
