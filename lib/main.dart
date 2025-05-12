@@ -20,13 +20,12 @@ class MyApp extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             //       This is Container Design for practice Container Widget
-
             // Center(
             //   child: Container(
             //     height: 300,
             //     width: 300,
             //     transform: Matrix4.rotationZ(1),
-            //     padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            //     // padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
             //     decoration: BoxDecoration(
             //       color: Colors.red.shade500,
             //       borderRadius: BorderRadius.only(
@@ -34,7 +33,7 @@ class MyApp extends StatelessWidget {
             //         bottomLeft: Radius.circular(40),
             //       ),
             //       border: Border.all(color: Colors.black87, width: 10),
-            //       image: DecorationImage(image: NetworkImage()),
+            //       // image: DecorationImage(image: NetworkImage()),
             //       boxShadow: [BoxShadow(color: Colors.red, blurRadius: 100)],
             //     ),
             //     child: Center(child: Text('This is a Container for design')),
@@ -102,8 +101,6 @@ class MyApp extends StatelessWidget {
             //     style: Theme.of(context).textTheme.bodyLarge,
             //   ),
             // ),
-
-            
           ],
         ),
       ),
