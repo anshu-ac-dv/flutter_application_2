@@ -90,10 +90,20 @@ class MyApp extends StatelessWidget {
             //   ),
             // ),
 
+            //      This is Divider Widget
+            // SizedBox(height: 100),
+            // Divider(color: Colors.black),
+            // SizedBox(height: 100),
+
+            //      This is Riched Text Widget
+            // RichText(
+            //   text: TextSpan(
+            //     text: 'Hello',
+            //     style: Theme.of(context).textTheme.bodyLarge,
+            //   ),
+            // ),
+
             
-            SizedBox(height: 100),
-            Divider(color: Colors.black),
-            SizedBox(height: 100),
           ],
         ),
       ),
