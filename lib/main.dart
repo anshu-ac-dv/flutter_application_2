@@ -129,7 +129,36 @@ class MyApp extends StatelessWidget {
             // ),
 
             //        List Tile Widget
-            
+            // Expanded(
+            //   child: ListTile(
+            //     leading: CircleAvatar(
+            //       radius: 30,
+            //       child: Icon(Icons.person_off_outlined),
+            //     ),
+            //     title: Text('Anshu'),
+            //     subtitle: Text('Anshu'),
+            //     trailing: Text('3:15 AM'),
+            //   ),
+            // ),
+
+            //        List View Builder Widget
+            Expanded(
+              flex: 4,
+              child: ListView.builder(
+                itemCount: 100,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    leading: CircleAvatar(
+                      radius: 30,
+                      child: Icon(Icons.person_off_outlined),
+                    ),
+                    title: Text('Anshu'),
+                    subtitle: Text('Anshu'),
+                    trailing: Text('3:15 AM'),
+                  );
+                },
+              ),
+            ),
           ],
         ),
       ),

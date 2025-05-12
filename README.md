@@ -12,8 +12,7 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
 >* Rich Text Widget
 >* Text Form Field Widget
 >* List Tile Widget
->* 
->* 
+>* List View Builder Widget
 
 ### Container Widget
 
@@ -147,5 +146,34 @@ RichText(
 
 ### List Tile Widget
 ```
+          ListTile(
+              leading: CircleAvatar(
+                radius: 30,
+                child: Icon(Icons.person_off_outlined),
+              ),
+              title: Text('Anshu'),
+              subtitle: Text('Anshu'),
+              trailing: Text('3:15 AM'),
+            ),
+```
 
+### List View Builder Widget
+```
+          Expanded(
+              flex: 4,
+              child: ListView.builder(
+                itemCount: 100,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    leading: CircleAvatar(
+                      radius: 30,
+                      child: Icon(Icons.person_off_outlined),
+                    ),
+                    title: Text('Anshu'),
+                    subtitle: Text('Anshu'),
+                    trailing: Text('3:15 AM'),
+                  );
+                },
+              ),
+            ),
 ```
