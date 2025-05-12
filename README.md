@@ -10,8 +10,8 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
 >* Circular Avtar Widget
 >* Divider Widget
 >* Rich Text Widget
->* 
->* 
+>* Text Form Field Widget
+>* List Tile Widget
 >* 
 >* 
 
@@ -115,4 +115,37 @@ RichText(
                style: Theme.of(context).textTheme.bodyLarge,
               ),
              ),
+```
+
+### Text Form Field Widget
+```
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: TextFormField(
+                keyboardType: TextInputType.emailAddress,
+                cursorColor: Colors.amber,
+                decoration: InputDecoration(
+                  hintText: 'Email',
+                  labelText: 'Email',
+                  filled: true,
+                  prefixIcon: Icon(Icons.email),
+                  fillColor: Colors.grey.shade100,
+                  //hintStyle: TextStyle(fontSize: 20, color: Colors.red),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.red),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(color: Colors.green),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                ),
+                onChanged: (value) {},
+              ),
+            ),
+```
+
+### List Tile Widget
+```
+
 ```
