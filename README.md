@@ -8,6 +8,7 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
 >* Expended Widget
 >* Stacks Widget
 >* Circular Avtar Widget
+>* Divider Widget
 
 ### Container Widget
 
@@ -93,3 +94,10 @@ A new Flutter project for learning Top 10 Wedget in flutter to create intactive 
               ),
             ),
 ```
+
+### Divider Widget
+````
+            SizedBox(height: 100),
+            Divider(color: Colors.black),
+            SizedBox(height: 100),
+````

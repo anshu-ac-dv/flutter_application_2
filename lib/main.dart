@@ -89,6 +89,11 @@ class MyApp extends StatelessWidget {
             //     child: Icon(Icons.person_off_outlined, size: 90),
             //   ),
             // ),
+
+            
+            SizedBox(height: 100),
+            Divider(color: Colors.black),
+            SizedBox(height: 100),
           ],
         ),
       ),
